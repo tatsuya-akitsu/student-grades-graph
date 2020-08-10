@@ -307,8 +307,8 @@ var __vue_staticRenderFns__ = [];
 
 const __vue_inject_styles__$1 = function (inject) {
   if (!inject) return;
-  inject("data-v-40ee7a7e_0", {
-    source: "div[data-v-40ee7a7e]{width:57%}@media screen and (max-width:768px){div[data-v-40ee7a7e]{width:100%}}",
+  inject("data-v-26f2d154_0", {
+    source: "div[data-v-26f2d154]{width:57%}@media screen and (max-width:768px){div[data-v-26f2d154]{width:100%}}",
     map: undefined,
     media: undefined
   });
@@ -316,7 +316,7 @@ const __vue_inject_styles__$1 = function (inject) {
 /* scoped */
 
 
-const __vue_scope_id__$1 = "data-v-40ee7a7e";
+const __vue_scope_id__$1 = "data-v-26f2d154";
 /* module identifier */
 
 const __vue_module_identifier__$1 = undefined;
@@ -334,10 +334,10 @@ const __vue_component__$1 = /*#__PURE__*/normalizeComponent({
 
 // Import vue component
 
-const install = function installStudentConclusionsGraph(Vue) {
+const install = function installStudentGradesGraph(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component('StudentConclusionsGraph', __vue_component__$1);
+  Vue.component('StudentGradesGraph', __vue_component__$1);
 }; // Create module definition for Vue.use()
 // to be registered via Vue.use() as well as Vue.component()
 

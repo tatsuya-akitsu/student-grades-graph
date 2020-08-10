@@ -1,11 +1,11 @@
 // Import vue component
-import component from '@/student-conclusions-graph.vue';
+import component from '@/student-grades-graph.vue';
 
 // install function executed by Vue.use()
-const install = function installStudentConclusionsGraph(Vue) {
+const install = function installStudentGradesGraph(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component('StudentConclusionsGraph', component);
+  Vue.component('StudentGradesGraph', component);
 };
 
 // Create module definition for Vue.use()

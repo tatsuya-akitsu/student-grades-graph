@@ -281,8 +281,8 @@ var __vue_staticRenderFns__ = [];
 
 var __vue_inject_styles__$1 = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-40ee7a7e_0", {
-    source: "div[data-v-40ee7a7e]{width:57%}@media screen and (max-width:768px){div[data-v-40ee7a7e]{width:100%}}",
+  inject("data-v-26f2d154_0", {
+    source: "div[data-v-26f2d154]{width:57%}@media screen and (max-width:768px){div[data-v-26f2d154]{width:100%}}",
     map: undefined,
     media: undefined
   });
@@ -290,10 +290,10 @@ var __vue_inject_styles__$1 = function __vue_inject_styles__(inject) {
 /* scoped */
 
 
-var __vue_scope_id__$1 = "data-v-40ee7a7e";
+var __vue_scope_id__$1 = "data-v-26f2d154";
 /* module identifier */
 
-var __vue_module_identifier__$1 = "data-v-40ee7a7e";
+var __vue_module_identifier__$1 = "data-v-26f2d154";
 /* functional template */
 
 var __vue_is_functional_template__$1 = false;
@@ -304,10 +304,10 @@ var __vue_component__$1 = /*#__PURE__*/normalizeComponent({
   staticRenderFns: __vue_staticRenderFns__
 }, __vue_inject_styles__$1, __vue_script__$1, __vue_scope_id__$1, __vue_is_functional_template__$1, __vue_module_identifier__$1, false, undefined, createInjectorSSR, undefined);// Import vue component
 
-var install = function installStudentConclusionsGraph(Vue) {
+var install = function installStudentGradesGraph(Vue) {
   if (install.installed) return;
   install.installed = true;
-  Vue.component('StudentConclusionsGraph', __vue_component__$1);
+  Vue.component('StudentGradesGraph', __vue_component__$1);
 }; // Create module definition for Vue.use()
 
 

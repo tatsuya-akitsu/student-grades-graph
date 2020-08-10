@@ -1,11 +1,11 @@
 {
-  "name": "student-conclusions-graph",
+  "name": "student-grades-graph",
   "version": "1.0.21",
   "description": "",
-  "main": "dist/student-conclusions-graph.ssr.js",
-  "browser": "dist/student-conclusions-graph.esm.js",
-  "module": "dist/student-conclusions-graph.esm.js",
-  "unpkg": "dist/student-conclusions-graph.min.js",
+  "main": "dist/student-grades-graph.ssr.js",
+  "browser": "dist/student-grades-graph.esm.js",
+  "module": "dist/student-grades-graph.esm.js",
+  "unpkg": "dist/student-grades-graph.min.js",
   "files": [
     "dist/*",
     "src/**/*.vue"
