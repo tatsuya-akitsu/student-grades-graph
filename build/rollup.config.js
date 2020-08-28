@@ -71,7 +71,7 @@ if (!argv.format || argv.format === 'es') {
     ...baseConfig,
     external,
     output: {
-      file: 'dist/student-conclusions-graph.esm.js',
+      file: 'dist/student-grades-graph.esm.js',
       format: 'esm',
       exports: 'named',
     },
@@ -106,7 +106,7 @@ if (!argv.format || argv.format === 'cjs') {
     external,
     output: {
       compact: true,
-      file: 'dist/student-conclusions-graph.ssr.js',
+      file: 'dist/student-grades-graph.ssr.js',
       format: 'cjs',
       name: 'StudentConclusionsGraph',
       exports: 'named',
@@ -136,7 +136,7 @@ if (!argv.format || argv.format === 'iife') {
     external,
     output: {
       compact: true,
-      file: 'dist/student-conclusions-graph.min.js',
+      file: 'dist/student-grades-graph.min.js',
       format: 'iife',
       name: 'StudentConclusionsGraph',
       exports: 'named',

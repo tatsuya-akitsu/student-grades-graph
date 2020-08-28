@@ -1,17 +1,17 @@
 <script>
 import Vue from 'vue';
-import StudentConclusionsGraph from '@/student-conclusions-graph.vue';
+import StudentGradesGraph from '@/student-grades-graph.vue';
 
 export default Vue.extend({
   name: 'ServeDev',
   components: {
-    StudentConclusionsGraph
+    StudentGradesGraph
   }
 });
 </script>
 
 <template>
   <div id="app">
-    <student-conclusions-graph />
+    <student-grades-graph />
   </div>
 </template>
