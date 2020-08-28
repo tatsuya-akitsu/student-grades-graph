@@ -1,6 +1,6 @@
 {
   "name": "student-grades-graph",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "",
   "main": "dist/student-grades-graph.ssr.js",
   "browser": "dist/student-grades-graph.esm.js",
